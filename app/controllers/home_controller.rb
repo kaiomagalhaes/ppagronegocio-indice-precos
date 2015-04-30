@@ -1,10 +1,7 @@
 class HomeController < ApplicationController
     
-    PriceService priceService
-    
     def getPriceIndex
-        puts "lolo"
-        render JSON: priceService.getPriceIndex 
+        render json: PriceService.new.getPriceIndex 
     end
     
 end
