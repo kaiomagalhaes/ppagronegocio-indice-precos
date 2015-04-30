@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     console.log("lolo")
-        $('#container-graph').highcharts({
+        $('#graph-container').highcharts({
             title: {
                 text: 'Monthly Average Temperature',
             x: -20 //center
