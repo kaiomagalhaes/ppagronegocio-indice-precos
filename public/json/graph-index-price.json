@@ -1,749 +1,6 @@
 {
+  "source":"Ceasa - go",
   "months": [
-    {
-      "month": "May",
-      "products": [
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        }
-      ]
-    },
-    {
-      "month": "Jun",
-      "products": [
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        }
-      ]
-    },
-    {
-      "month": "Jul",
-      "products": [
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        }
-      ]
-    },
-    {
-      "month": "Aug",
-      "products": [
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        }
-      ]
-    },
-    {
-      "month": "Sep",
-      "products": [
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        }
-      ]
-    },
-    {
-      "month": "Oct",
-      "products": [
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        }
-      ]
-    },
-    {
-      "month": "Nov",
-      "products": [
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        }
-      ]
-    },
-    {
-      "month": "Dec",
-      "products": [
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        }
-      ]
-    },
     {
       "month": "Jan",
       "products": [
@@ -752,11 +9,27 @@
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 2,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Lettuce",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 0.8,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Eggplant",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 0.5,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "WaterMelon",
           "category": {
             "description": "Grocery"
           },
@@ -764,80 +37,63 @@
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Mango",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 1.9,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Potato",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 3.5,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Rice",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 2.2,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Bean",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 1.9,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "potato",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 1.7,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Orange",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 0.3,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Grape",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
+          "priceIndex": 1.8,
           "lastPriceIndex": 0.8
         }
       ]
-    },
-    {
+    },{
       "month": "Feb",
       "products": [
         {
@@ -849,7 +105,71 @@
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Lettuce",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 0.3,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Eggplant",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 1.8,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Banana",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 1.7,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Mango",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 0.8,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Potato",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 0.7,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Rice",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 2.5,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Bean",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 2.2,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "potato",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 1.7,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Orange",
           "category": {
             "description": "Grocery"
           },
@@ -857,75 +177,11 @@
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Grape",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
+          "priceIndex": 2,
           "lastPriceIndex": 0.8
         }
       ]
@@ -938,11 +194,27 @@
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 2,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Lettuce",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 0.8,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Eggplant",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 0.5,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "WaterMelon",
           "category": {
             "description": "Grocery"
           },
@@ -950,75 +222,59 @@
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Mango",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 1.9,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Potato",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 3.5,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Rice",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 2.2,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Bean",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 1.9,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "potato",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 1.7,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Orange",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
+          "priceIndex": 0.3,
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Grape",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
+          "priceIndex": 1.8,
           "lastPriceIndex": 0.8
         }
       ]
@@ -1035,7 +291,71 @@
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Lettuce",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 0.3,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Eggplant",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 1.8,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Banana",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 1.7,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Mango",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 0.8,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Potato",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 0.7,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Rice",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 2.5,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Bean",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 2.2,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "potato",
+          "category": {
+            "description": "Grocery"
+          },
+          "priceIndex": 1.7,
+          "lastPriceIndex": 0.8
+        },
+        {
+          "name": "Orange",
           "category": {
             "description": "Grocery"
           },
@@ -1043,79 +363,14 @@
           "lastPriceIndex": 0.8
         },
         {
-          "name": "Tomato",
+          "name": "Grape",
           "category": {
             "description": "Grocery"
           },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
-          "lastPriceIndex": 0.8
-        },
-        {
-          "name": "Tomato",
-          "category": {
-            "description": "Grocery"
-          },
-          "priceIndex": 1,
+          "priceIndex": 2,
           "lastPriceIndex": 0.8
         }
       ]
     }
-
   ]
 }
