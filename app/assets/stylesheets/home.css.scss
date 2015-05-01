@@ -1,17 +1,43 @@
 $primary-color: rgb(230, 252, 242);
 
+/*body*/
+body{
+	background: #F2F2F2 !important;
+}
+
+
 /*header*/
 #header nav.navbar.navbar-default{
-	background-color: $primary-color;
+	background: #40403E;
+}
+
+#header button.btn {
+	background: #40403E;
+	color: #D9CEBA;
 }
 
 #header nav.navbar.navbar-default ul li.active a{
-	background-color: #BDFADE;
+	background: #40403E;
+	color:#555;
+}
+
+#header nav.navbar.navbar-default ul li a {
+	color: #636B73;
 }
 
 /*footer*/
 #footer {
     height: 50px;
-    background-color: $primary-color;
+    background: #262625;
+    color: #D9CEBA;
     padding-top: 15px
+}
+
+/*graphics*/
+#graph-increasing-price-reasons{
+	padding: 0
+}
+
+#graph-decreasing-price-reasons{
+	padding: 0
 }
