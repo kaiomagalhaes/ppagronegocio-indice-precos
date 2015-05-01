@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
     $('#graph-increasing-price-reasons').highcharts({
         chart: {
             plotBackgroundColor: null,
@@ -21,13 +21,16 @@ $(document).ready(function(){
             type: 'pie',
             name: 'Percentage',
             data: [
-            ['Season',   45.0],
-            ['Gas price',       26.8],
-            ['Lack of rains',12.8],
-            ['Metheors',    8.5],
-            ['Canibal lettuces',     6.2],
-            ['Others',   0.7]
+                ['Season', 45.0],
+                ['Gas price', 26.8],
+                ['Lack of rains', 12.8],
+                ['Metheors', 8.5],
+                ['Canibal lettuces', 6.2],
+                ['Others', 0.7]
             ]
-        }]
+        }],
+        credits: {
+            enabled: false
+        }
     });
 });

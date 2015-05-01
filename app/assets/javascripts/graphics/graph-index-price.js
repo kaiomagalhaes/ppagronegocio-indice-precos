@@ -27,7 +27,7 @@ priceIndexLineGraph = function() {
                 x: -20 //center
             },
             subtitle: {
-                text: 'Source:'+ data.source,
+                text: 'Source:' + data.source,
                 x: -20
             },
             xAxis: {
@@ -53,7 +53,10 @@ priceIndexLineGraph = function() {
                 verticalAlign: 'middle',
                 borderWidth: 0
             },
-            series: data.series
+            series: data.series,
+            credits: {
+                enabled: false
+            }
         }
     }
     return new PriceIndexLineGraph();

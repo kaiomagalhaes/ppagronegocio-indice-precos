@@ -1,0 +1,17 @@
+$primary-color: rgb(230, 252, 242);
+
+/*header*/
+#header nav.navbar.navbar-default{
+	background-color: $primary-color;
+}
+
+#header nav.navbar.navbar-default ul li.active a{
+	background-color: #BDFADE;
+}
+
+/*footer*/
+#footer {
+    height: 50px;
+    background-color: $primary-color;
+    padding-top: 15px
+}

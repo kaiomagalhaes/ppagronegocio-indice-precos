@@ -13,6 +13,7 @@
 //= require jquery
 //= require lodash
 //= require jquery_ujs
+//= require bootstrap
 //= require turbolinks
 //= require highcharts
 //= require data
