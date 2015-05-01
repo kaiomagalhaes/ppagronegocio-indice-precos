@@ -49,3 +49,8 @@ group :development, :test do
   gem 'spring'
 end
 
+group :production do
+  #postgres
+  gem 'pg'
+  
+end
