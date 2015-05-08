@@ -12,4 +12,11 @@ RSpec.describe Price, type: :model do
 		expect(price).to be_invalid
 	end
 
+	it "is valid when have events associated with him" do 
+		price = Price.create(value:28)
+		event = Event.create(description:"test")
+		price.events = [event]
+		expect(price.events.first).to eql(event)
+	end
+
 end
