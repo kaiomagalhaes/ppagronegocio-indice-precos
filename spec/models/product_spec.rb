@@ -3,7 +3,9 @@ require 'rails_helper'
 RSpec.describe Product, type: :model do
  
   it "is valid when vulgarName is defined" do 
-		product = Product.new(vulgarName:"test")
+  		category = Category.create(description:"test")
+  		product = Product.new(vulgarName:"test")
+  		product.category = category
 		expect(product).to be_valid
 	end
 
@@ -20,9 +22,16 @@ RSpec.describe Product, type: :model do
 
 	it "is valid when have prices associated with him" do 
 		price = Price.create(value:0)
-		product = Product.create(vulgarName:"test")
+		category = Category.create(description:"test")
+		product = Product.create(vulgarName:"test",category:category)
 		product.prices = [price]
 		expect(product.prices.first).to eql(price)
+	end
+
+	it "is valid when have category associated with him" do 
+		category = Category.create(description:"test")
+		product = Product.create(vulgarName:"test",category:category)
+		expect(product.category).to eql(category)
 	end
 
 end

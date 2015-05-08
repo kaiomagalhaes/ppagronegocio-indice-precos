@@ -21,7 +21,8 @@ RSpec.describe Price, type: :model do
 
 	it "is valid when have products associated with him" do 
 		price = Price.create(value:0)
-		product = Product.create(vulgarName:"test")
+		category = Category.create(description:"test")
+		product = Product.create(vulgarName:"test",category:category)
 		price.products = [product]
 		expect(price.products.first).to eql(product)
 	end

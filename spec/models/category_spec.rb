@@ -18,4 +18,11 @@ RSpec.describe Category, type: :model do
 		expect(category).to be_invalid
 	end
 
+	it "is valid when have products associated with him" do 
+		category = Category.new(description:"test")
+		product = Product.create(vulgarName:"test",category:category)
+		category.products = [product]
+		expect(category.products.first).to eql(product)
+	end
+
 end
