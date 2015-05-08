@@ -19,4 +19,11 @@ RSpec.describe Price, type: :model do
 		expect(price.events.first).to eql(event)
 	end
 
+	it "is valid when have products associated with him" do 
+		price = Price.create(value:0)
+		product = Product.create(vulgarName:"test")
+		price.products = [product]
+		expect(price.products.first).to eql(product)
+	end
+
 end

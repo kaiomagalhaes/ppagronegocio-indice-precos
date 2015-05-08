@@ -18,4 +18,11 @@ RSpec.describe Product, type: :model do
 		expect(product).to be_invalid
 	end
 
+	it "is valid when have prices associated with him" do 
+		price = Price.create(value:0)
+		product = Product.create(vulgarName:"test")
+		product.prices = [price]
+		expect(product.prices.first).to eql(price)
+	end
+
 end
