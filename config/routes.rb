@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  get "home/getPriceIndex" => "home#getPriceIndex"
+  get "priceIndex/getData" => "price_index#getData"
   
   root "home#index"
 
