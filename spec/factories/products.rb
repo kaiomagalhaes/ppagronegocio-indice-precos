@@ -1,8 +1,10 @@
+require 'ffaker'
+
 FactoryGirl.define do
 	
 	factory :product do
-		vulgarName "Blood orange"
-		cientificName "Citrus x sinensis"
+		vulgarName FFaker::Food.fruit
+		cientificName FFaker::Food.fruit
 		association :category
 
 		factory :product_without_vulgar_name do

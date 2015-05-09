@@ -1,7 +1,7 @@
 FactoryGirl.define do
 	
 	factory :category do
-		description "fruits"
+		description FFaker::Food.ingredient
 
 		factory :category_without_description do
 			description nil

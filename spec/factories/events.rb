@@ -1,7 +1,7 @@
 FactoryGirl.define do
 	
 	factory :event do
-		description "Rain of canibal plants"
+		description FFaker::Food.fruit
 
 		factory :event_without_description do
 			description nil
