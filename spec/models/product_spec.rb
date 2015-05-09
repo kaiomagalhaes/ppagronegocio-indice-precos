@@ -2,12 +2,8 @@ require 'rails_helper'
 
 RSpec.describe Product, type: :model do	
 
-	let(:category) do 
-		Category.create(description:"test")
-	end
-
 	let(:product) do 
-		Product.create(vulgarName:"test",category:category)
+		create(:product)
 	end
 
 	it "is valid when vulgarName is defined" do 
@@ -15,14 +11,11 @@ RSpec.describe Product, type: :model do
 	end
 
 	it "is invalid when vulgarName is not defined" do 
-		product = Product.new(category:category)
-		expect(product).to be_invalid
+		expect(build(:product_without_vulgar_name)).to be_invalid
 	end
 
 	it "is invalid when already have a product with this cientificName defined" do 
-		Product.create(vulgarName:"test",category:category)
-		invalid_product = Product.new(cientificName:"test")
-		expect(product).to be_invalid
+		expect(Product.new(product.attributes)).to be_invalid
 	end
 
 	it "is valid when have prices associated with him" do 
@@ -32,7 +25,7 @@ RSpec.describe Product, type: :model do
 	end
 
 	it "is valid when have category associated with him" do 
-		expect(product.category).to eql(category)
+		expect(product.category).to be_truthy
 	end
 
 end

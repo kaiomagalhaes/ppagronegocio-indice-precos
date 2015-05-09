@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe Price, type: :model do
 
 	let(:price) do 
-		Price.new(value:28)
+		build(:price)
 	end
 
 	it "is valid when value is defined" do 
@@ -11,19 +11,17 @@ RSpec.describe Price, type: :model do
 	end
 
 	it "is invalid when value is not defined" do 
-		invalid_price = Price.new()
-		expect(invalid_price).to be_invalid
+		expect(build(:price_without_value)).to be_invalid
 	end
 
 	it "is valid when have events associated with him" do 
-		event = Event.create(description:"test")
+		event = build(:event)
 		price.events = [event]
 		expect(price.events.first).to eql(event)
 	end
 
 	it "is valid when have products associated with him" do 
-		category = Category.create(description:"test")
-		product = Product.create(vulgarName:"test",category:category)
+		product = build(:product)
 		price.products = [product]
 		expect(price.products.first).to eql(product)
 	end

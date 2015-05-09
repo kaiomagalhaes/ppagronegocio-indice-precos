@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe Category, type: :model do
 
 	let(:category){
-		Category.new(description:"test")
+		build(:category)
 	}
   
 	it "is valid when description is defined" do 
@@ -11,18 +11,18 @@ RSpec.describe Category, type: :model do
 	end
 
 	it "is invalid when description is not defined" do 
-		category = Category.new()
-		expect(category).to be_invalid
+		expect(build(:category_without_description)).to be_invalid
 	end
 
 	it "is invalid when already have a Category with this description defined" do 
-		Category.create(description:"test")
-		category = Category.new(description:"test")
+		create(:category)
+		attributes = category.attributes
+		category = Category.new(attributes)
 		expect(category).to be_invalid
 	end
 
 	it "is valid when have products associated with him" do 
-		product = Product.create(vulgarName:"test",category:category)
+		product = build(:product)
 		category.products = [product]
 		expect(category.products.first).to eql(product)
 	end
