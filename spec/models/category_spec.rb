@@ -1,9 +1,12 @@
 require 'rails_helper'
 
 RSpec.describe Category, type: :model do
+
+	let(:category){
+		Category.new(description:"test")
+	}
   
 	it "is valid when description is defined" do 
-		category = Category.new(description:"test")
 		expect(category).to be_valid
 	end
 
@@ -19,7 +22,6 @@ RSpec.describe Category, type: :model do
 	end
 
 	it "is valid when have products associated with him" do 
-		category = Category.new(description:"test")
 		product = Product.create(vulgarName:"test",category:category)
 		category.products = [product]
 		expect(category.products.first).to eql(product)

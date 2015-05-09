@@ -1,6 +1,7 @@
 FactoryGirl.define do
-  factory :price do
-    value "MyString"
-  end
+
+	factory :price do
+		value "MyString"
+	end
 
 end
