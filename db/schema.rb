@@ -11,7 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150508131033) do
+ActiveRecord::Schema.define(version: 20150508024432) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+  enable_extension "hstore"
+  enable_extension "uuid-ossp"
 
   create_table "categories", force: :cascade do |t|
     t.string   "description"
@@ -31,14 +36,10 @@ ActiveRecord::Schema.define(version: 20150508131033) do
   end
 
   create_table "prices", force: :cascade do |t|
-    t.string   "value"
+    t.float    "value"
+    t.integer  "product_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "prices_products", force: :cascade do |t|
-    t.integer "product_id", null: false
-    t.integer "price_id",   null: false
   end
 
   create_table "products", force: :cascade do |t|
