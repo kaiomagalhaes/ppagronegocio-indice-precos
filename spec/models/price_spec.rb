@@ -21,9 +21,7 @@ RSpec.describe Price, type: :model do
 	end
 
 	it "is valid when have products associated with him" do 
-		product = build(:product)
-		price.products = [product]
-		expect(price.products.first).to eql(product)
+		expect(price.product).to be_valid
 	end
 
 end

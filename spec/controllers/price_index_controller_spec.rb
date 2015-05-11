@@ -4,34 +4,33 @@ require 'rails_helper'
 RSpec.describe PriceIndexController, type: :controller do
 
 	describe 'Get data' do
+		# TODO refactor
 	    it 'get data return a valid json' do 
-	    	category = Category.create(description:"Grocery")
-	    	product = Product.create("vulgarName":"Tomato", category:category)
-	    	price = Price.new(product: product)
-	    	p category
+	    	createTestData	
 
+			get "getData", format:"json"
 
+			expect(response.status).to eq(200)
 
+			json_response = JSON.parse(response.body)
+			json_expected = getJsonTest
 
-
-
-			# get "getData",format:"json"
-			# expect(response.status).to eq(200)
-
-			# json_response = JSON.parse(response.body)
-			# expected_response = getJsonTest
 			
-			# expect(json_response).to eql(expected_response)
+			expect(json_response["source"]).to eql(json_expected[:source])
+			expect(json_response["months"].length).to eql(json_expected[:months].length)
+			expect(json_response["months"].length).to eql(json_expected[:months].length)
+			expect(json_response["months"].first["month"]).to eql(json_expected[:months].first[:month])
+			expect(json_response["months"].first["products"].first["name"]).to eql(json_expected[:months].first[:products].first[:name])
 		end
 
 	end
 
 	def getJsonTest
 		{
-		  "source":"Ceasa - go",
+		  "source": "Ceasa - go",
 		  "months": [
 		    {
-		      "month": "Jan",
+		      "month": Date::MONTHNAMES[Date.today.month],
 		      "products": [
 		        {
 		          "name": "Tomato",
@@ -47,5 +46,10 @@ RSpec.describe PriceIndexController, type: :controller do
 		}
 	end
 
+	def createTestData
+		category = Category.create(description:"Grocery")
+	    product = Product.create("vulgarName":"Tomato", category:category)
+	    Price.create(product: product, value: 28)
+	end
 
 end
