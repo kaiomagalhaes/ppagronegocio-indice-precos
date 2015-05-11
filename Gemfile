@@ -67,5 +67,5 @@ end
 group :production do
   #postgres
   gem 'pg'
-
+  gem 'rails_12factor'
 end
