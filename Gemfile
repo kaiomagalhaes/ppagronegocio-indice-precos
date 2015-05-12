@@ -27,6 +27,8 @@ gem 'bootstrap-sass'
 # Lodash
 gem 'lodash-rails'
 
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
