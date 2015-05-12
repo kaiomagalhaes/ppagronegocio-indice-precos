@@ -3,7 +3,7 @@ priceIndexLineGraph = function() {
     var PriceIndexLineGraph = function() {};
 
     PriceIndexLineGraph.prototype.getUrl = function() {
-        return '/json/graph-index-price.json'
+        return '/priceIndex/getData'
     }
 
     PriceIndexLineGraph.prototype.getIdContainer = function() {
