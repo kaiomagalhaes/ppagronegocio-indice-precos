@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   
   devise_for :users
+  resources :categories
+
   get "priceIndex/getData" => "price_index#getData"
   
   root "home#index"
