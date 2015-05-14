@@ -1,17 +1,4 @@
-<%= form_for(@category) do |f| %>
-  <% if @category.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@category.errors.count, "error") %> prohibited this category from being saved:</h2>
-
-      <ul>
-      <% @category.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+<%= bootstrap_form_for(@category) do |f| %>
+  <%= f.text_field :description , wrapper_class: "col-md-3"%>
+  <%= f.submit "Save" , class: "btn btn-info" %>
 <% end %>

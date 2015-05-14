@@ -24,6 +24,11 @@ class CategoriesController < ApplicationController
   # POST /categories
   # POST /categories.json
   def create
+
+    p "teste"
+    p category_params
+    p "teste"
+
     @category = Category.new(category_params)
 
     respond_to do |format|
@@ -69,6 +74,6 @@ class CategoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def category_params
-      params[:category]
+      params[:category].permit(:description)
     end
 end
